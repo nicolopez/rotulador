@@ -1,0 +1,44 @@
+<!doctype>
+<html>
+<head>
+    <title>ROTULADOR PRUEBA</title>
+    <link rel="shortcut icon" href="https://i1.wp.com/api.ning.com/files/PpbHBokQJZCUMuC78TzzmbV9s8SE-FeP7gnVsFWTLCBN0hNucaJE53ZwcGAUisnJ1rLhrkC27*QT6OPg014icQ__/beta.gif"/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.17.custom.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="js/jspdf.debug.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        $(function() {
+            $("#accordion-basic, #accordion-text, #accordion-graphic").accordion({
+                autoHeight: false,
+                navigation: true
+            });
+            $( "#tabs" ).tabs();
+            $(".button").button();
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Cargar planilla en formato ".csv"</h1>
+        <button id="instructive">Instructivo</button>
+    </header>
+    <div id="browse">
+        Seleccionar archivo: 
+        <input type="file" id="fileInput">
+    </div>
+
+    <div id="fileDisplayArea"></div>
+
+    <a href="javascript:demoTextAlign()" class="button">CREAR PDF CON ROTULOS</a>
+    
+
+</body>
+</html>

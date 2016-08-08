@@ -1,0 +1,57 @@
+* {
+    padding: 0; margin: 0;
+}
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+}
+h2 {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+#instructive {
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #12c305;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+}
+#browse {
+    margin-left: 20px;
+}
+#fileDisplayArea {
+    width: 95%;
+    border: 1px solid #000;
+    background: #eee;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 1em;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+}   
+.button {
+    margin-left: 50px;
+}
+h1 {
+    margin-bottom: 0.7em;
+}
+h2 {
+    margin-top: 1em;
+}
+p {
+    margin-bottom: 1em;
+}
